@@ -57,8 +57,8 @@ const Projects = () => {
               Currently deep-diving into <strong>Next.js, Node.js, Express, and MongoDB</strong>.
               Building full-stack projects to become a MERN developer.
               Check out my GitHub for more projects: 
-              <a href="https://github.com/YOUR-USERNAME" target="_blank" style={{color: 'white', marginLeft: '5px'}}>
-                github.com/YOUR-USERNAME
+              <a href="https://github.com/lalitlucky743-ctrl/" target="_blank" style={{color: 'white', marginLeft: '5px'}}>
+                https://github.com/lalitlucky743-ctrl/
               </a>
             </p>
           </div>
