@@ -1,0 +1,99 @@
+.projects-section {
+  background: #f8fafc;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  transition: all 0.3s;
+  border: 1px solid #e2e8f0;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.project-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+}
+
+.project-tech span {
+  background: #e2e8f0;
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.project-card p {
+  color: #4a5568;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link {
+  color: #0f62ac;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  color: #38bdf8;
+}
+
+.journey-card {
+  margin-top: 3rem;
+  background: linear-gradient(135deg, #0f62ac, #38bdf8);
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.journey-icon {
+  font-size: 3rem;
+}
+
+.journey-content h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.journey-content p {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .journey-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}
